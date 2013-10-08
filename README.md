@@ -22,8 +22,7 @@ note: you will need [Virtualenv](https://pypi.python.org/pypi/virtualenv) and [G
 	2. Windows: `venv\scripts\activate.bat`
 6. Install required Python packages
 	1. `pip install -r requirements.txt`
-
-* run server
+7. run server
 	* Mac/Linux(port [5000](http://localhost:5000/)): `foreman start`
 	* Windows(port [8000](http://localhost:8000/)): `python manage.py runserver`
 
