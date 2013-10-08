@@ -2,17 +2,17 @@ import os, sys, shutil
 
 def main():
     # get the name from input
-    if len(sys.argv) < 2:
-        print ("Please enter a name")
-        print ("Example 'python setup.py my_project'")
-        return None
-    if len(sys.argv) > 2:
-    	print ("Please enter a one word long name")
-        print ("Example 'python setup.py my_project'")
-        return None
-    name = sys.argv[1]
+    # if len(sys.argv) < 2:
+    #     print ("Please enter a name")
+    #     print ("Example 'python setup.py my_project'")
+    #     return None
+    # if len(sys.argv) > 2:
+    # 	print ("Please enter a one word long name")
+    #     print ("Example 'python setup.py my_project'")
+    #     return None
+    name = os.path.split(os.getcwd())[-1]
     # print("setting project name to \"%s\"" % name)
-    sys.stdout.write("setting project name to \"%s\"..." % name)
+    sys.stdout.write("setting up project: \"%s\"..." % name)
 
     # string replace files files
     recursiveReplace('core', '[*projectName*]', name)
