@@ -12,12 +12,12 @@ def main():
 
     # string replace files files
     recursiveReplace('core', '[*projectName*]', name)
-    recursiveReplace('[*projectName*]', '[*projectName*]', name)
+    recursiveReplace('projectName', '[*projectName*]', name)
     fileReplace('Procfile', '[*projectName*]', name)
     fileReplace('manage.py', '[*projectName*]', name)
 
     # rename the project directory
-    os.rename("[*projectName*]", name)
+    os.rename("projectName", name)
 
     # delete this file and .git
     os.remove('setup.py')
