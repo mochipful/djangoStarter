@@ -35,7 +35,7 @@ note: you will need [Virtualenv](https://pypi.python.org/pypi/virtualenv) and [G
 
 ### Heroku
 1. create a new Heroku app
-	1. heroku create [new_project_name]
+	1. `heroku create [new_project_name]`
 		1. note that project names are optional when creating a new Heroku project but if you do specify one then it must be unique accross all Heroku users
 2. push your code to Heroku
 	1. `git push heroku master`
