@@ -13,8 +13,8 @@ note: you will need [Virtualenv](https://pypi.python.org/pypi/virtualenv) and [G
 	1. `mv djangoStarter new_project_name`
 3. cd into the project directory
 	1. `cd new_project_name`
-3. Run the initialization script with the name of your project as the parameter
-	1. `python setup.py new_project_name`
+3. Run the initialization script
+	1. `python setup.py`
 4. Create the virtual environment
 	1. `virtualenv venv --distribute`
 5. Activate the virtual environment
