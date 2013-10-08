@@ -1,17 +1,13 @@
 import os, sys, shutil
 
 def main():
-    # get the name from input
-    # if len(sys.argv) < 2:
-    #     print ("Please enter a name")
-    #     print ("Example 'python setup.py my_project'")
-    #     return None
-    # if len(sys.argv) > 2:
-    # 	print ("Please enter a one word long name")
-    #     print ("Example 'python setup.py my_project'")
-    #     return None
+
     name = os.path.split(os.getcwd())[-1]
-    # print("setting project name to \"%s\"" % name)
+    
+    if name == "djangoStarter":
+        print ("Please change the name of the current to\nsomething besides djangoStarter")
+        return None
+
     sys.stdout.write("setting up project: \"%s\"..." % name)
 
     # string replace files files
