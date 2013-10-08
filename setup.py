@@ -5,7 +5,7 @@ def main():
     name = os.path.split(os.getcwd())[-1]
     
     if name == "djangoStarter":
-        print ("Please change the name of the current directory to something besides djangoStarter")
+        print ("Please change the name of the current directory to something besides \"djangoStarter\"")
         return None
 
     sys.stdout.write("setting up project: \"%s\"..." % name)
