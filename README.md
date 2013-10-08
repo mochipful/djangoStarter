@@ -1,10 +1,10 @@
 djangoStarter
 ===
+A quick way to start a new Django Project. Projects come ready to run on Heroku.  
+  
 
-A quick way to start a new Django Project. Projects come ready to run on Heroku.
-
-
-note: you will need [Virtualenv](https://pypi.python.org/pypi/virtualenv) and [Git](http://git-scm.com/) installed. If you want to put your project on [Heroku](https://www.heroku.com/), you will also need to install the [Heroku toolbelt](https://toolbelt.heroku.com/) and have a [Heroku account](https://id.heroku.com/signup) which you have [uploaded your ssh key](https://devcenter.heroku.com/articles/keys) to and logged into (by running `heroku login`).
+  
+note: you will need [Virtualenv](https://pypi.python.org/pypi/virtualenv) and [Git](http://git-scm.com/) installed. If you want to put your project on [Heroku](https://www.heroku.com/), you will also need to install the [Heroku toolbelt](https://toolbelt.heroku.com/) and have a [Heroku account](https://id.heroku.com/signup) to which you have [uploaded your ssh key](https://devcenter.heroku.com/articles/keys) and are logged in (`heroku login`).
 
 ### Initializing
 1. Clone this repository
