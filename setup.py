@@ -24,7 +24,7 @@ def main():
     os.rename("[*projectName*]", name)
 
     # delete this file and .git
-    os.remove('setName.py')
+    os.remove('setup.py')
     shutil.rmtree('.git')
 
     print ("done!")
