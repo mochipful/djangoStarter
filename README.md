@@ -25,6 +25,10 @@ note: you will need [Virtualenv](https://pypi.python.org/pypi/virtualenv) and [G
 7. run server
 	* Mac/Linux(port [5000](http://localhost:5000/)): `foreman start`
 	* Windows(port [8000](http://localhost:8000/)): `python manage.py runserver`
+8. connect to server
+    by default set to http://0.0.0.0:5000
+    if doesn't work, check the command line prompt after starting server:
+        Listening at: http://0.0.0.0:5000
 
 ### Git
 1. create a new git repository
