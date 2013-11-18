@@ -31,6 +31,8 @@ note: you will need [Virtualenv](https://pypi.python.org/pypi/virtualenv) and [G
 	1. `git init`
 2. create an initial commit
 	1. `git add . && git commit -m "initial commit"`
+3. move it over to your github
+    1. `git remote set-url origin https://github.com/your_user_name/new_repo_name.git`
 
 ### Heroku
 1. create a new Heroku app
